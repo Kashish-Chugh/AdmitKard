@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+h1 {
+  padding: 20px;
+}
+
+form {
+  width: 300px;
+  margin: auto;
+}
+
+a {
+  color: orange;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  align-content: center;
+  padding: 50px;
+  margin-top: 0;
+}
+
+.small {
+  size: 10px;
+  color: gray;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.otp_div {
+  padding: 10px;
+}
+.center {
+  margin: auto;
+}
+
+#partitioned {
+  padding-left: 15px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: linear-gradient(
+    to left,
+    black 70%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px;
+  min-width: 220px;
+}
+
+#divInner {
+  left: 0;
+  position: sticky;
+}
+
+#divOuter {
+  width: 190px;
+  overflow: hidden;
+}
+
+.otp {
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
